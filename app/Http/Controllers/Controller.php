@@ -17,4 +17,7 @@ class Controller extends BaseController
     public function respondWithSuccess($data = null){
         return response()->json(["status"=>true,"data"=>$data],200);
     }
+    public function respondWithError($message){
+        return response()->json(["status"=>true,"message"=>$message],500);
+    }
 }

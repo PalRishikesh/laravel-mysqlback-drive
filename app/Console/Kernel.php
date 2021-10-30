@@ -26,9 +26,8 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')
         //          ->hourly();
-        // $schedule->command('clever-tap:profile')->dailyAt('02:30'); //8 Am
-        // $schedule->command("mysql:download")->dailyAt("03:58");
-        $schedule->command("mysql:download")->dailyAt("22:29");
+
+        $schedule->command("mysql:download")->dailyAt("19:30");//1 am  21:30 
     }
 
     /**
