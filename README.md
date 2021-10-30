@@ -11,14 +11,14 @@ Below is the key which is need to upload any file on google drive
 Below file need to created to stored the mysql password in our system
 - DEFAULT_FILE_MYSQL_PASSWORD="/home/rishi/Desktop/.my.cnf" Please used your user name instead of "rishi" and avoid to create this config file with sudo permission
 
-.my.cnf                                                            
-[mysqldump]
-password=root@1234
+.my.cnf (file)                                                           
+<p>[mysqldump]</p>
+<p>password=root@1234</p>
 
 CrontTab -e file
 Download at 1 am (IST) and upload at 3 am (IST)
-* * * * * php /var/www/html/project-name/artisan schedule:run (Please have a look in kernel.php)
-30 21 * * * php /var/www/html/project-name/artisan queue:listen
+<p>* * * * * php /var/www/html/project-name/artisan schedule:run (Please have a look in kernel.php)</p>
+<p>30 21 * * * php /var/www/html/project-name/artisan queue:listen</p>
 
 ## REST API of https://docs.spacexdata.com
 
@@ -41,7 +41,7 @@ Steps are
 
 All Employee schema and migration are in this project 
 
-<p align="center"><img src="https://drive.google.com/file/d/19aC22eVU5MRHVDChbzvJ8EyjWwVRHqy0/view?usp=sharing"> </p>
+<p align="center"><img src="https://1.bp.blogspot.com/-LqWzLDhctdk/YXzw1PQWAoI/AAAAAAAAK8A/modov4A6x6UGRQM0uJ-G8OYC04PuAPk5wCLcBGAsYHQ/s1149/EmployeeRelationSchema.png"> </p>
 
 ## Challenging modules
 
